@@ -21,6 +21,37 @@ body {
   background-color: #f6f5f0;
 }
 
+.banner{
+   width: 100%;
+   height: 40vh;
+   background-color: #22223b;
+   color: #f2e9e4;
+   text-align: center;
+}
+
+.banner h1{
+   font-size: 4rem;
+}
+
+.contenido{
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 24px;
+}
+
+.etiqueta{
+   font-size: 1.5em;
+}
+
+.poster{
+   font-size: 80px;
+   text-align: center;
+   min-height: 160px;
+   max-width: 300px;
+   margin: 24px;
+   background-color: #e8e2d9;
+}
+
 /* ============================================================
    TODO 1 — El banner
    A .banner dale:
@@ -38,7 +69,7 @@ body {
    A .banner h1 dale:
    - font-size: 4rem
    rem es relativo al tamaño de fuente del html. Probá cambiar
-   4rem por 4vw y mover el ancho de la ventana. ¿Qué diferencia
+   4rem por 4vh y mover el ancho de la ventana. ¿Qué diferencia
    hay entre rem y vw?
    ============================================================ */
 
