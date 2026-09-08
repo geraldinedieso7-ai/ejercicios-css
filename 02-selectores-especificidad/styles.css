@@ -23,6 +23,34 @@ body {
   padding: 24px;
 }
 
+
+p {
+   color: #5c4a3a;
+}
+
+.destacado{
+ color: #2a9d8f;
+ font-weight: bold;
+}
+
+#titulo-principal {
+   color: #d62828;
+   text-align: center;
+}
+
+#aviso{
+   background-color: #ffd166;
+   color: #7a4b00;
+}
+
+h1, h2 {
+   font-family: Georgia, "Times New Roman", serif;
+}
+
+.menu li {
+font-size: 18px;
+
+}
 /* ============================================================
    TODO 1 — Selector de ETIQUETA
    Todos los <p> de la página deberían verse con:

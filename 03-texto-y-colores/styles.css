@@ -19,6 +19,40 @@ main {
   padding: 24px;
 }
 
+body{
+   background-color: #fff8f0;
+   font-family: Georgia, "Times New Roman", serif;
+}
+
+
+.encabezado{
+   background-color: #6d3b2b;
+   text-align: center;
+}
+
+.encabezado h1{
+   color: #fff8f0;
+}
+
+.subtitulo{
+   color: #e0c9a6;
+   font-size: 18px;
+}
+
+.precio{
+   color: #2a9d8f;
+   font-weight: bold;
+}
+
+.descripcion{
+   color: #8a7968;
+   font-size: 14px;
+}
+
+.footer{
+   text-align: center;
+   color: #8a7968;
+}
 /* ============================================================
    TODO 1 — Base de la página
    Al body dale:

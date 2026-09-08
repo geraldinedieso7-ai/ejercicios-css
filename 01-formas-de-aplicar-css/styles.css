@@ -30,6 +30,11 @@ body {
   padding: 16px;
 }
 
+.funcion-externa {
+  color: #8ecae6;
+  font-size: 20px;
+  text-align: center;
+}
 /* ============================================================
    TODO 3 — CSS EXTERNO
    Este archivo está enlazado desde el <head> con la etiqueta
