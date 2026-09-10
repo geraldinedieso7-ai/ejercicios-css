@@ -64,13 +64,20 @@ button {
    - font-weight: bold
    ============================================================ */
 
+
+   .menu a:hover{
+    color: #0d6e4f;
+    font-weight: bold;
+   }
 /* ============================================================
    TODO 2 — Efecto cebra
    Las posiciones pares de la lista (sin tocar el HTML):
    .lista li:nth-child(even)
    - background-color: #dce8e2
    ============================================================ */
-
+.lista li:nth-child(even){
+  background-color: #dce8e2;
+}
 /* ============================================================
    TODO 3 — Hover sobre la lista
    .lista li:hover
@@ -78,7 +85,9 @@ button {
    Pregunta: al pasar el mouse sobre un item par, ¿gana la
    cebra (TODO 2) o el hover (TODO 3)? ¿De qué depende?
    ============================================================ */
-
+.lista li:hover{
+  background-color: #b8d8c4;
+}
 /* ============================================================
    TODO 4 — La más votada
    El último item de la lista:
@@ -86,6 +95,10 @@ button {
    - font-weight: bold
    ============================================================ */
 
+
+   .lista li:last-child{
+    font-weight: bold;
+   }
 /* ============================================================
    TODO 5 — Input activo
    Cuando el input recibe el foco (hacé clic adentro):
@@ -94,6 +107,11 @@ button {
    - background-color: #fffbe6
    ============================================================ */
 
+input:focus{
+  border: 2px solid #0d6e4f;
+  background-color: #fffbe6;
+}
+
 /* ============================================================
    TODO 6 — Botón reactivo
    button:hover
@@ -101,6 +119,10 @@ button {
    - color: #ffffff
    ============================================================ */
 
+   button:hover{
+    background-color: #0d6e4f;
+    color: #ffffff;
+   }
 /* ============================================================
    TODO 7 — Marca antes de cada libro
    Los pseudoelementos insertan contenido desde el CSS.
@@ -109,6 +131,9 @@ button {
    Ojo: content SOLO funciona en ::before y ::after.
    ============================================================ */
 
+   .lista li::before{
+    content: "»";
+   }
 /* ============================================================
    TODO 8 — Capital del párrafo
    .texto::first-letter
@@ -117,12 +142,19 @@ button {
    - font-weight: bold
    ============================================================ */
 
+   .texto::first-letter{
+    font-size: 3em;
+    color: #0d6e4f;
+    font-weight: bold;
+   }
 /* ============================================================
    TODO 9 — Texto después de cada link
    .menu a::after
    - content: " (link)"
    ============================================================ */
-
+.menu a::after{
+  content: "(link)";
+}
 /* ============================================================
     PARA PENSAR
    ¿Cuál es la diferencia entre una pseudoclase (un solo :)
