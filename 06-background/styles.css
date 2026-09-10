@@ -38,6 +38,31 @@ main {
   margin-bottom: 16px;
 }
 
+.hero{
+  height: 320px;
+  background-color: #23423d;
+  background-image: url("https://wallpaperaccess.com/full/2087266.jpg");
+  
+
+}
+
+.hero{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.frase{
+  background: linear-gradient(90deg, #0d3b66, #1d7a8C);
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+
 /* ============================================================
    TODO 1 — El hero con imagen de fondo
    A .hero dale:
